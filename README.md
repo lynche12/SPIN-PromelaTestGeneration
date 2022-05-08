@@ -1,2 +1,6 @@
 # SPIN-PromelaTestGeneration
-This repo contains the code for the generation of tests for the RTEMS Message Manager
+This repo contains the code for the generation/running of tests for the RTEMS Message Manager
+
+This project is research work done for an MAI in Computer Engineering at Trinity College Dublin
+
+This project requires the spin2test and testbuilder projects to generate tests.
