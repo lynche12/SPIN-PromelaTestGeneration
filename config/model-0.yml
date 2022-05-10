@@ -1,0 +1,45 @@
+SPDX-License-Identifier: CC-BY-SA-4.0 OR BSD-2-Clause
+build-type: test-program
+cflags: []
+copyrights:
+- Copyright (C) 2020 embedded brains GmbH (http://www.embedded-brains.de)
+cppflags: []
+cxxflags: []
+enabled-by: true
+features: c cprogram
+includes: []
+ldflags: []
+links: []
+source:
+- testsuites/validation/tc-msg-mgr-model.c
+- testsuites/validation/tr-msg-mgr-model-0.c
+- testsuites/validation/tr-msg-mgr-model-1.c
+- testsuites/validation/tr-msg-mgr-model-10.c
+- testsuites/validation/tr-msg-mgr-model-11.c
+- testsuites/validation/tr-msg-mgr-model-12.c
+- testsuites/validation/tr-msg-mgr-model-13.c
+- testsuites/validation/tr-msg-mgr-model-14.c
+- testsuites/validation/tr-msg-mgr-model-15.c
+- testsuites/validation/tr-msg-mgr-model-16.c
+- testsuites/validation/tr-msg-mgr-model-17.c
+- testsuites/validation/tr-msg-mgr-model-18.c
+- testsuites/validation/tr-msg-mgr-model-19.c
+- testsuites/validation/tr-msg-mgr-model-2.c
+- testsuites/validation/tr-msg-mgr-model-20.c
+- testsuites/validation/tr-msg-mgr-model-21.c
+- testsuites/validation/tr-msg-mgr-model-22.c
+- testsuites/validation/tr-msg-mgr-model-3.c
+- testsuites/validation/tr-msg-mgr-model-4.c
+- testsuites/validation/tr-msg-mgr-model-5.c
+- testsuites/validation/tr-msg-mgr-model-6.c
+- testsuites/validation/tr-msg-mgr-model-7.c
+- testsuites/validation/tr-msg-mgr-model-8.c
+- testsuites/validation/tr-msg-mgr-model-9.c
+- testsuites/validation/tr-msg-mgr-model.c
+- testsuites/validation/ts-model-0.c
+stlib: []
+target: testsuites/validation/ts-model-0.exe
+type: build
+use-after:
+- validation
+use-before: []
