@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: parsec
+Version: 3.5
+Summary: parser combinator.
+Home-page: https://github.com/sighingnow/parsec.py
+Author: He Tao
+Author-email: sighingnow@gmail.com
+License: MIT
+Keywords: monad parser combinator
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+
+A universal Python parser combinator library inspired by Parsec library of Haskell.
+
+

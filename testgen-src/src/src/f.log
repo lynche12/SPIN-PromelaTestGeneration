@@ -1,0 +1,94 @@
+./modules/promela_yacc/promela/yacc.py:172:39: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:172:41: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:172:52: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:172:54: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:172:65: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:172:67: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:215:39: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:215:41: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:397:52: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:397:54: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:397:71: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:397:73: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:397:80: E501 line too long (84 > 79 characters)
+./modules/promela_yacc/promela/yacc.py:522:41: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:522:43: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/yacc.py:557:80: E501 line too long (102 > 79 characters)
+./modules/promela_yacc/promela/yacc.py:951:80: E501 line too long (150 > 79 characters)
+./modules/promela_yacc/promela/yacc.py:951:91: E261 at least two spaces before inline comment
+./modules/promela_yacc/promela/yacc.py:967:80: E501 line too long (99 > 79 characters)
+./modules/promela_yacc/promela/yacc.py:984:5: E722 do not use bare 'except'
+./modules/promela_yacc/promela/yacc.py:988:5: E722 do not use bare 'except'
+./modules/promela_yacc/promela/lex.py:191:34: E261 at least two spaces before inline comment
+./modules/promela_yacc/promela/lex.py:191:80: E501 line too long (121 > 79 characters)
+./modules/promela_yacc/promela/lex.py:192:29: E211 whitespace before '('
+./modules/promela_yacc/promela/lex.py:192:40: E211 whitespace before '('
+./modules/promela_yacc/promela/lex.py:192:79: E211 whitespace before '('
+./modules/promela_yacc/promela/lex.py:192:80: E501 line too long (87 > 79 characters)
+./modules/promela_yacc/promela/__init__.py:2:1: F401 '.yacc.Parser' imported but unused
+./modules/promela_yacc/promela/__init__.py:5:1: E722 do not use bare 'except'
+./modules/promela_yacc/promela/ast.py:249:37: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:249:39: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:257:80: E501 line too long (94 > 79 characters)
+./modules/promela_yacc/promela/ast.py:261:80: E501 line too long (132 > 79 characters)
+./modules/promela_yacc/promela/ast.py:276:62: E211 whitespace before '('
+./modules/promela_yacc/promela/ast.py:276:80: E501 line too long (170 > 79 characters)
+./modules/promela_yacc/promela/ast.py:276:105: E211 whitespace before '('
+./modules/promela_yacc/promela/ast.py:281:9: E741 ambiguous variable name 'l'
+./modules/promela_yacc/promela/ast.py:282:80: E501 line too long (141 > 79 characters)
+./modules/promela_yacc/promela/ast.py:283:80: E501 line too long (134 > 79 characters)
+./modules/promela_yacc/promela/ast.py:290:47: E261 at least two spaces before inline comment
+./modules/promela_yacc/promela/ast.py:545:13: E741 ambiguous variable name 'l'
+./modules/promela_yacc/promela/ast.py:547:13: E741 ambiguous variable name 'l'
+./modules/promela_yacc/promela/ast.py:570:39: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:570:80: E501 line too long (80 > 79 characters)
+./modules/promela_yacc/promela/ast.py:571:80: E501 line too long (93 > 79 characters)
+./modules/promela_yacc/promela/ast.py:572:80: E501 line too long (90 > 79 characters)
+./modules/promela_yacc/promela/ast.py:573:80: E501 line too long (143 > 79 characters)
+./modules/promela_yacc/promela/ast.py:767:80: E501 line too long (97 > 79 characters)
+./modules/promela_yacc/promela/ast.py:788:80: E501 line too long (129 > 79 characters)
+./modules/promela_yacc/promela/ast.py:802:25: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:802:27: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:803:25: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:803:27: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:803:80: E501 line too long (88 > 79 characters)
+./modules/promela_yacc/promela/ast.py:804:25: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:804:27: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:806:1: E302 expected 2 blank lines, found 1
+./modules/promela_yacc/promela/ast.py:812:45: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:812:47: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:812:63: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:812:65: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:812:80: E501 line too long (126 > 79 characters)
+./modules/promela_yacc/promela/ast.py:816:33: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:816:35: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:834:23: E741 ambiguous variable name 'l'
+./modules/promela_yacc/promela/ast.py:844:9: E741 ambiguous variable name 'l'
+./modules/promela_yacc/promela/ast.py:869:22: E741 ambiguous variable name 'l'
+./modules/promela_yacc/promela/ast.py:883:9: E741 ambiguous variable name 'l'
+./modules/promela_yacc/promela/ast.py:905:47: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:905:49: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:905:80: E501 line too long (90 > 79 characters)
+./modules/promela_yacc/promela/ast.py:915:47: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:915:49: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:915:80: E501 line too long (90 > 79 characters)
+./modules/promela_yacc/promela/ast.py:924:80: E501 line too long (135 > 79 characters)
+./modules/promela_yacc/promela/ast.py:954:1: E302 expected 2 blank lines, found 1
+./modules/promela_yacc/promela/ast.py:961:51: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:961:53: E251 unexpected spaces around keyword / parameter equals
+./modules/promela_yacc/promela/ast.py:961:80: E501 line too long (94 > 79 characters)
+./modules/promela_yacc/promela/ast.py:963:1: E302 expected 2 blank lines, found 1
+./modules/promela_yacc/promela/ast.py:1002:73: E202 whitespace before ')'
+./modules/comment_filter/comment_filter/__init__.py:1:1: F403 'from .rfc import *' used; unable to detect undefined names
+./modules/comment_filter/comment_filter/__init__.py:1:1: F401 '.rfc.*' imported but unused
+./modules/comment_filter/comment_filter/rfc.py:3:1: E302 expected 2 blank lines, found 1
+./modules/comment_filter/comment_filter/rfc.py:20:80: E501 line too long (82 > 79 characters)
+./modules/comment_filter/comment_filter/rfc.py:126:80: E501 line too long (83 > 79 characters)
+./modules/comment_filter/comment_filter/rfc.py:132:80: E501 line too long (81 > 79 characters)
+./modules/comment_filter/comment_filter/rfc.py:134:80: E501 line too long (99 > 79 characters)
+./modules/comment_filter/comment_filter/rfc.py:170:17: E201 whitespace after '['
+./modules/comment_filter/comment_filter/rfc.py:170:76: E202 whitespace before ']'
+./modules/comment_filter/comment_filter/rfc.py:170:80: E501 line too long (82 > 79 characters)
+./modules/comment_filter/comment_filter/rfc.py:308:80: E501 line too long (83 > 79 characters)
+./modules/comment_filter/comment_filter/rfc.py:351:80: E501 line too long (93 > 79 characters)
+./modules/comment_filter/comment_filter/language.py:9:1: E305 expected 2 blank lines after class or function definition, found 1

@@ -1,0 +1,198 @@
+Metadata-Version: 2.1
+Name: coconut
+Version: 1.4.3
+Summary: Simple, elegant, Pythonic functional programming.
+Home-page: http://coconut-lang.org
+Author: Evan Hubinger
+Author-email: evanjhub@gmail.com
+License: Apache 2.0
+Keywords: functional,programming,language,compiler,match,pattern,pattern-matching,algebraic,data,data type,data types,lambda,lambdas,lazy,evaluation,lazy list,lazy lists,tail,recursion,call,recursive,infix,function,composition,compose,partial,application,currying,curry,pipeline,pipe,unicode,operator,operators,frozenset,literal,syntax,destructuring,assignment,reduce,fold,takewhile,dropwhile,tee,consume,count,parallel_map,concurrent_map,MatchError,datamaker,makedata,addpattern,prepattern,recursive_iterator,iterator,fmap,starmap,case,none,coalesce,coalescing,reiterable,scan,groupsof,where,statement,lru_cache,memoize,memoization,backport,typing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Other
+Classifier: Programming Language :: Other Scripting Engines
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Framework :: IPython
+Requires-Dist: pyparsing (<2.4.6,>=2.4.5) ; platform_python_implementation!='CPython'
+Requires-Dist: cPyparsing (<2.4.5.0.1.2,>=2.4.5.0.1.1) ; platform_python_implementation=='CPython'
+Requires-Dist: argparse (>=1.4) ; python_version<'2.7'
+Requires-Dist: futures (>=3.3) ; python_version<'3'
+Requires-Dist: backports.functools-lru-cache (>=1.6) ; python_version<'3'
+Requires-Dist: prompt-toolkit (<2,>=1) ; python_version<'3'
+Requires-Dist: pygments (>=2.3.1) ; python_version>='2.7'
+Requires-Dist: prompt-toolkit (>=1) ; python_version>='3'
+Provides-Extra: all
+Requires-Dist: watchdog (>=0.9) ; extra == 'all'
+Requires-Dist: jupyter-console (>=5.2) ; extra == 'all'
+Requires-Dist: mypy (<0.762,>=0.761) ; extra == 'all'
+Requires-Dist: psutil (>=5) ; extra == 'all'
+Requires-Dist: jupyter (>=1.0) ; extra == 'all'
+Requires-Dist: ipykernel (>=4.10) ; (python_version < "3") and extra == 'all'
+Requires-Dist: trollius (>=2.2) ; (python_version < "3") and extra == 'all'
+Requires-Dist: ipython (>=5.4) ; (python_version < "3") and extra == 'all'
+Requires-Dist: ipykernel (>=5.1) ; (python_version >= "3") and extra == 'all'
+Requires-Dist: ipython (<7.11,>=6.5) ; (python_version >= "3") and extra == 'all'
+Provides-Extra: asyncio
+Requires-Dist: trollius (>=2.2) ; (python_version < "3") and extra == 'asyncio'
+Provides-Extra: dev
+Requires-Dist: jupyter-console (>=5.2) ; extra == 'dev'
+Requires-Dist: pexpect (>=4) ; extra == 'dev'
+Requires-Dist: requests (>=2) ; extra == 'dev'
+Requires-Dist: jupyter (>=1.0) ; extra == 'dev'
+Requires-Dist: watchdog (>=0.9) ; extra == 'dev'
+Requires-Dist: sphinx (<1.7.5,>=1.7.4) ; extra == 'dev'
+Requires-Dist: mypy (<0.762,>=0.761) ; extra == 'dev'
+Requires-Dist: sphinx-bootstrap-theme (<0.5,>=0.4) ; extra == 'dev'
+Requires-Dist: pygments (>=2.3.1) ; extra == 'dev'
+Requires-Dist: recommonmark (>=0.6) ; extra == 'dev'
+Requires-Dist: pre-commit (>=1) ; extra == 'dev'
+Requires-Dist: vprof (>=0.36) ; extra == 'dev'
+Requires-Dist: psutil (>=5) ; extra == 'dev'
+Requires-Dist: pyparsing (<2.4.6,>=2.4.5) ; extra == 'dev'
+Requires-Dist: pytest (>=3) ; extra == 'dev'
+Requires-Dist: numpy (>=1) ; (python_version < "3") and extra == 'dev'
+Requires-Dist: ipython (>=5.4) ; (python_version < "3") and extra == 'dev'
+Requires-Dist: ipykernel (>=4.10) ; (python_version < "3") and extra == 'dev'
+Requires-Dist: trollius (>=2.2) ; (python_version < "3") and extra == 'dev'
+Requires-Dist: ipython (<7.11,>=6.5) ; (python_version >= "3") and extra == 'dev'
+Requires-Dist: ipykernel (>=5.1) ; (python_version >= "3") and extra == 'dev'
+Requires-Dist: numpy (>=1) ; (python_version >= "3.4") and extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: recommonmark (>=0.6) ; extra == 'docs'
+Requires-Dist: sphinx (<1.7.5,>=1.7.4) ; extra == 'docs'
+Requires-Dist: sphinx-bootstrap-theme (<0.5,>=0.4) ; extra == 'docs'
+Requires-Dist: pygments (>=2.3.1) ; extra == 'docs'
+Provides-Extra: ipython
+Requires-Dist: jupyter (>=1.0) ; extra == 'ipython'
+Requires-Dist: jupyter-console (>=5.2) ; extra == 'ipython'
+Requires-Dist: ipython (>=5.4) ; (python_version < "3") and extra == 'ipython'
+Requires-Dist: ipykernel (>=4.10) ; (python_version < "3") and extra == 'ipython'
+Requires-Dist: ipython (<7.11,>=6.5) ; (python_version >= "3") and extra == 'ipython'
+Requires-Dist: ipykernel (>=5.1) ; (python_version >= "3") and extra == 'ipython'
+Provides-Extra: jobs
+Requires-Dist: psutil (>=5) ; extra == 'jobs'
+Provides-Extra: jupyter
+Requires-Dist: jupyter (>=1.0) ; extra == 'jupyter'
+Requires-Dist: jupyter-console (>=5.2) ; extra == 'jupyter'
+Requires-Dist: ipython (>=5.4) ; (python_version < "3") and extra == 'jupyter'
+Requires-Dist: ipykernel (>=4.10) ; (python_version < "3") and extra == 'jupyter'
+Requires-Dist: ipython (<7.11,>=6.5) ; (python_version >= "3") and extra == 'jupyter'
+Requires-Dist: ipykernel (>=5.1) ; (python_version >= "3") and extra == 'jupyter'
+Provides-Extra: mypy
+Requires-Dist: mypy (<0.762,>=0.761) ; extra == 'mypy'
+Provides-Extra: tests
+Requires-Dist: jupyter-console (>=5.2) ; extra == 'tests'
+Requires-Dist: pexpect (>=4) ; extra == 'tests'
+Requires-Dist: psutil (>=5) ; extra == 'tests'
+Requires-Dist: pytest (>=3) ; extra == 'tests'
+Requires-Dist: jupyter (>=1.0) ; extra == 'tests'
+Requires-Dist: pyparsing (<2.4.6,>=2.4.5) ; extra == 'tests'
+Requires-Dist: ipykernel (>=4.10) ; (python_version < "3") and extra == 'tests'
+Requires-Dist: numpy (>=1) ; (python_version < "3") and extra == 'tests'
+Requires-Dist: ipython (>=5.4) ; (python_version < "3") and extra == 'tests'
+Requires-Dist: ipykernel (>=5.1) ; (python_version >= "3") and extra == 'tests'
+Requires-Dist: ipython (<7.11,>=6.5) ; (python_version >= "3") and extra == 'tests'
+Requires-Dist: numpy (>=1) ; (python_version >= "3.4") and extra == 'tests'
+Provides-Extra: watch
+Requires-Dist: watchdog (>=0.9) ; extra == 'watch'
+
+Coconut
+=======
+
+.. image:: https://opencollective.com/coconut/backers/badge.svg
+    :alt: Backers on Open Collective
+    :target: #backers
+.. image:: https://opencollective.com/coconut/sponsors/badge.svg
+    :alt: Sponsors on Open Collective
+    :target: #sponsors
+
+Coconut (`coconut-lang.org`__) is a variant of Python_ that **adds on top of Python syntax** new features for simple, elegant, Pythonic **functional programming**.
+
+__ Coconut_
+.. _Coconut: http://coconut-lang.org/
+
+Coconut is developed on GitHub_ and hosted on PyPI_. Installing Coconut is as easy as opening a command prompt and entering::
+
+    pip install coconut
+
+after which the entire world of Coconut will be at your disposal. To help you get started, check out these links for more information about Coconut:
+
+- Tutorial_: If you're new to Coconut, a good place to start is Coconut's **tutorial**.
+- Documentation_: If you're looking for info about a specific feature, check out Coconut's **documentation**.
+- `Online Interpreter`_: If you want to try Coconut in your browser, check out Coconut's **online interpreter**.
+- FAQ_: If you have general questions about Coconut—like who Coconut is built for and whether or not you should use it—Coconut's frequently asked questions are often the best place to start.
+- `Create a New Issue <https://github.com/evhub/coconut/issues/new>`_: If you're having a problem with Coconut, creating a new issue detailing the problem will allow it to be addressed as soon as possible.
+- Gitter_: For any questions, concerns, or comments about anything Coconut-related, ask around at Coconut's Gitter, a GitHub-integrated chat room for Coconut developers.
+- Releases_: Want to know what's been added in recent Coconut versions? Check out the release log for all the new features and fixes.
+
+.. _Python: https://www.python.org/
+.. _PyPI: https://pypi.python.org/pypi/coconut
+.. _Tutorial: http://coconut.readthedocs.io/en/master/HELP.html
+.. _Documentation: http://coconut.readthedocs.io/en/master/DOCS.html
+.. _`Online Interpreter`: https://cs121-team-panda.github.io/coconut-interpreter
+.. _FAQ: http://coconut.readthedocs.io/en/master/FAQ.html
+.. _GitHub: https://github.com/evhub/coconut
+.. _Gitter: https://gitter.im/evhub/coconut
+.. _Releases: https://github.com/evhub/coconut/releases
+
+Credits
++++++++
+
+Contributors
+------------
+
+This project exists thanks to all the people who contribute! `Become a contributor`__.
+
+.. image:: https://opencollective.com/coconut/contributors.svg?width=890&button=false
+    :target: https://github.com/evhub/coconut/graphs/contributors
+
+__ Contributor_
+.. _Contributor: http://coconut.readthedocs.io/en/develop/CONTRIBUTING.html
+
+Backers
+-------
+
+Thank you to all our backers! `Become a backer`__.
+
+.. image:: https://opencollective.com/coconut/backers.svg?width=890
+    :target: https://opencollective.com/coconut#backers
+
+__ Backer_
+.. _Backer: https://opencollective.com/coconut#backer
+
+Sponsors
+--------
+
+Support Coconut by becoming a sponsor. Your logo will show up here with a link to your website. `Become a sponsor`__.
+
+.. image:: https://opencollective.com/XX/sponsor/0/avatar.svg
+    :target: https://opencollective.com/coconut/sponsor/0/website
+
+__ Sponsor_
+.. _Sponsor: https://opencollective.com/coconut#sponsor
+
+
